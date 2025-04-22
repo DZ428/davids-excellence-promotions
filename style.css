@@ -1,4 +1,4 @@
-/* === Base Reset === */
+/* Base Reset */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
   line-height: 1.6;
 }
 
-/* === Header === */
+/* Header */
 header {
   background-color: #5910E5;
   padding: 2rem 1rem;
@@ -33,19 +33,21 @@ nav a {
   margin: 0 12px;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.05rem;
+}
+nav a i {
+  margin-right: 6px;
 }
 nav a:hover {
   text-decoration: underline;
 }
 
-/* === Sections === */
+/* Services Section */
 section {
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
-
-/* === Services Section === */
 .services {
   background: #111;
   padding: 2rem;
@@ -62,7 +64,7 @@ section {
   border-bottom: 1px solid #333;
 }
 
-/* === Form Section === */
+/* Contact Form */
 form {
   background: #222;
   padding: 2rem;
@@ -108,7 +110,7 @@ button:hover {
   margin-top: 1rem;
 }
 
-/* === Footer === */
+/* Footer */
 footer {
   text-align: center;
   padding: 1rem;
